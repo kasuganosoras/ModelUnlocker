@@ -26,7 +26,7 @@ Options:
 
 ## Example
 
-Unlock all models in the directory and subdirectories, and output to the same directory (Override files).
+Unlock all models in the directory (not included subdirectories), and output to the same directory (Override files).
 
 ```
 ModelUnlocker.exe -r -i "Path/To/Models/"
