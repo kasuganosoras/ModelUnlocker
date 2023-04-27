@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ModelUnlocker</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Authors>Akkariin</Authors>
+    <Company>ZeroDream</Company>
+    <Description>GTA V Model Unlocker</Description>
+    <Copyright>(C) 2023 ZeroDream.NET</Copyright>
+    <PackageProjectUrl>https://www.zerodream.net/</PackageProjectUrl>
+    <PackageIcon>ZeroDream-Logo-Single-White-Main.png</PackageIcon>
+    <Title>ModelUnlocker</Title>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Akkariin\Pictures\ZeroDream-Logo-Single-White-Main.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CodeWalker.Core">
+      <HintPath>..\..\YftUnlocker\libs\CodeWalker.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
