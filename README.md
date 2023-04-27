@@ -2,6 +2,8 @@
 
 This tool is used to unlocking GTA5 Yft, Ydr and ydd models, the unlocked models can be imported into ZModeler3 for editing.
 
+[Finding a GUI version of this tool?](https://github.com/kasuganosoras/ModelUnlockerGUI)
+
 ## Note
 Currently, unlocking models with cloth mesh (Yld) is not supported. If some models cannot be imported into ZModeler3 after unlocking, please try to export them to OpenFormat using OpenIV, and then import them back to the model file.
 
