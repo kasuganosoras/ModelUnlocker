@@ -19,7 +19,7 @@ Usage: ModelUnlocker.exe [options]
 Options:
   -i|--input <input>     Input file or directory.
   -o|--output <output>   Output file or directory, default is the same as input file or directory.
-  -r|--override			 Override the exists file.
+  -r|--override          Override the exists file.
   -l|--loglevel <level>  Log level, default is Info, supported values: 0. Debug, 1. Info, 2. Warning, 3. Error
   -h|--help              Show help information.
 ```
