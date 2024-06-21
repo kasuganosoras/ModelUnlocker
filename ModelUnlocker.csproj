@@ -35,7 +35,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="CodeWalker.Core">
-      <HintPath>..\..\YftUnlocker\libs\CodeWalker.Core.dll</HintPath>
+      <HintPath>CodeWalker.Core.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
